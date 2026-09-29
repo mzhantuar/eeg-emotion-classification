@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+.DS_Store
+.idea/
+.vscode/settings.local.json
+.venv/
+venv/
+env/
+.env
+
+# EEG data and generated artifacts must not be committed.
+data/raw/*
+!data/raw/deap/
+!data/raw/deap/.gitkeep
+checkpoints/*
+!checkpoints/.gitkeep
+results/*
+!results/.gitkeep
+*.pt
+*.pth
+*.ckpt
+
+# Notebook temporary files
+.ipynb_checkpoints/
+
